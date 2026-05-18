@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Vincent Lin builds game systems, agent tooling, and interactive technical prototypes. A curated GitHub-first portfolio for investors, publishers, and collaborators."
+  />
+  <title>Vincent Lin | Gaming + AI Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Vincent Lin portfolio home">
+      <span class="brand-mark">VL</span>
+      <span>Vincent Lin</span>
+    </a>
+
+    <nav class="nav" aria-label="Portfolio navigation">
+      <a href="#projects">Projects</a>
+      <a href="#systems">Systems</a>
+      <a href="#github">GitHub</a>
+      <a class="nav-cta" href="https://github.com/adroitous">View GitHub</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/portfolio/sanctuary-title.png" alt="" />
+      </div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Game systems / agent tooling / interactive prototypes</p>
+        <h1 id="hero-title">A technical portfolio for fundable game ideas.</h1>
+        <p class="hero-copy">
+          I build across the whole stack: playable game systems, production specs,
+          AI-assisted asset pipelines, browser demos, and developer tooling for
+          agent-heavy workflows.
+        </p>
+        <div class="hero-actions" aria-label="Primary links">
+          <a class="button button-primary" href="https://github.com/adroitous">View GitHub</a>
+          <a class="button button-secondary" href="#projects">See Projects</a>
+        </div>
+        <dl class="hero-stats" aria-label="Portfolio highlights">
+          <div>
+            <dt>15</dt>
+            <dd>public GitHub repos</dd>
+          </div>
+          <div>
+            <dt>Godot + Web</dt>
+            <dd>game/runtime focus</dd>
+          </div>
+          <div>
+            <dt>AI tooling</dt>
+            <dd>agent and pipeline work</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section intro" aria-labelledby="intro-title">
+      <div class="section-heading">
+        <p class="eyebrow">Why this portfolio exists</p>
+        <h2 id="intro-title">Proof of range, not a single landing page.</h2>
+      </div>
+      <div class="intro-grid">
+        <article>
+          <h3>Game concepts with systems depth</h3>
+          <p>
+            Project Sanctuary/cardlyB anchors the game side: a Godot 4 .NET
+            roguelike card battler with specs, C# architecture, data-driven
+            content, art/audio pipelines, and QA tooling.
+          </p>
+        </article>
+        <article>
+          <h3>Agent-native developer workflows</h3>
+          <p>
+            Recent GitHub work focuses on making coding agents practical on
+            Windows, including notification hooks and workflow scaffolding for
+            long-running AI-assisted development.
+          </p>
+        </article>
+        <article>
+          <h3>Interactive technical demos</h3>
+          <p>
+            Browser and ML projects show a wider base: physics visualizations,
+            LLM resume generation, NLP systems, clustering experiments, and
+            small security exercises.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <p class="eyebrow">Curated highlights</p>
+        <h2 id="projects-title">Projects worth opening first.</h2>
+      </div>
+
+      <div class="featured-project">
+        <div class="project-visual sanctuary-stack">
+          <img class="visual-main" src="assets/portfolio/sanctuary-combat.png" alt="Project Sanctuary combat environment art" />
+          <img class="visual-character" src="assets/portfolio/sanctuary-character.png" alt="Project Sanctuary character art" />
+          <img class="visual-card" src="assets/portfolio/sanctuary-card.png" alt="Project Sanctuary card art" />
+        </div>
+        <div class="project-copy">
+          <p class="project-kicker">Flagship game project</p>
+          <h3>Project Sanctuary / cardlyB</h3>
+          <p>
+            A narrative-first, anime-styled, party roguelike card battler built
+            in Godot 4 .NET with C#. The local workspace includes a playable
+            implementation, full design bible, generated art assets, BGM/SFX
+            pipelines, mobile planning docs, and QA harness work.
+          </p>
+          <ul class="tag-list" aria-label="Project Sanctuary technologies">
+            <li>Godot 4 .NET</li>
+            <li>C#</li>
+            <li>Game design specs</li>
+            <li>Asset pipelines</li>
+            <li>QA harness</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/adroitous/cardlyB">Source</a>
+            <a href="#systems">Architecture notes</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card" data-kind="web">
+          <div class="card-top">
+            <span class="repo-type">Browser demo</span>
+            <span class="repo-lang">JavaScript</span>
+          </div>
+          <h3>Physics Equation Playground</h3>
+          <p>
+            Interactive browser playground for physics and equation-driven
+            canvas animations, built as a fast visual prototyping surface.
+          </p>
+          <ul class="tag-list">
+            <li>Canvas</li>
+            <li>Vite</li>
+            <li>Playwright</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/adroitous/physics-equation-playground">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-kind="agents">
+          <div class="card-top">
+            <span class="repo-type">Agent tooling</span>
+            <span class="repo-lang">PowerShell</span>
+          </div>
+          <h3>Claude PowerShell Hooks</h3>
+          <p>
+            Windows 11 notification hooks for Claude Code, focused on making
+            long-running local coding sessions easier to monitor.
+          </p>
+          <ul class="tag-list">
+            <li>Windows</li>
+            <li>PowerShell</li>
+            <li>Developer UX</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/adroitous/claude-powershell-hooks">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-kind="ai">
+          <div class="card-top">
+            <span class="repo-type">AI app</span>
+            <span class="repo-lang">HTML/Python</span>
+          </div>
+          <h3>Resume JSON Generator</h3>
+          <p>
+            Job-description-driven JSON Resume generator with Python models,
+            validation, prompts, and a lightweight frontend.
+          </p>
+          <ul class="tag-list">
+            <li>LLM workflow</li>
+            <li>Schema output</li>
+            <li>Validation</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/adroitous/ResumeJsonGeneratorOutline">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-kind="ai">
+          <div class="card-top">
+            <span class="repo-type">NLP project</span>
+            <span class="repo-lang">Python</span>
+          </div>
+          <h3>YouTube Comments Classifier</h3>
+          <p>
+            NLP project exploring comment ranking and generation using sentiment,
+            co-occurrence features, Markov chains, and recurrent models.
+          </p>
+          <ul class="tag-list">
+            <li>NLP</li>
+            <li>Classification</li>
+            <li>Generation</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/adroitous/YoutubeComments">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-kind="ai">
+          <div class="card-top">
+            <span class="repo-type">ML experiments</span>
+            <span class="repo-lang">Python</span>
+          </div>
+          <h3>K-Means Experiments</h3>
+          <p>
+            Clustering experiments across many benchmark datasets, with result
+            outputs and analysis scripts for comparing behavior across domains.
+          </p>
+          <ul class="tag-list">
+            <li>Clustering</li>
+            <li>Benchmarks</li>
+            <li>Analysis</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/adroitous/kmeanexperiments">Source</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-kind="security">
+          <div class="card-top">
+            <span class="repo-type">Systems/security</span>
+            <span class="repo-lang">C</span>
+          </div>
+          <h3>Buffer Overflow Exercises</h3>
+          <p>
+            Low-level C exercises around memory behavior and exploit mechanics,
+            useful as evidence of systems-level fundamentals.
+          </p>
+          <ul class="tag-list">
+            <li>C</li>
+            <li>Makefile</li>
+            <li>Systems</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/adroitous/bufferoverflow">Source</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="systems" class="section systems" aria-labelledby="systems-title">
+      <div class="section-heading">
+        <p class="eyebrow">Build pattern</p>
+        <h2 id="systems-title">The work is connected by systems thinking.</h2>
+      </div>
+      <div class="systems-layout">
+        <div class="system-panel">
+          <h3>Game production loop</h3>
+          <p>
+            Specs define the design contract, data files drive runtime behavior,
+            Godot scenes present the experience, and QA scripts close the loop.
+          </p>
+          <ol class="timeline">
+            <li><span>01</span> Vision, pillars, and market positioning</li>
+            <li><span>02</span> C# core simulation and JSON game data</li>
+            <li><span>03</span> Art, SFX, BGM, and animation pipelines</li>
+            <li><span>04</span> Playtest, QA harness, and iteration notes</li>
+          </ol>
+        </div>
+        <div class="system-panel accent-panel">
+          <h3>Why it matters to funders</h3>
+          <p>
+            This portfolio shows more than isolated demos. It shows a founder
+            who can move from research to tools to game implementation, while
+            keeping scope, production constraints, and technical proof visible.
+          </p>
+          <div class="proof-grid">
+            <div>
+              <strong>Production range</strong>
+              <span>gameplay, UI, pipelines, docs</span>
+            </div>
+            <div>
+              <strong>Technical range</strong>
+              <span>C#, JS, Python, PowerShell, C</span>
+            </div>
+            <div>
+              <strong>Current focus</strong>
+              <span>agent orchestration and observability</span>
+            </div>
+            <div>
+              <strong>Shipping target</strong>
+              <span>playable demos and public GitHub proof</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="github" class="section github-section" aria-labelledby="github-title">
+      <div class="github-card">
+        <div>
+          <p class="eyebrow">GitHub first</p>
+          <h2 id="github-title">Open the repos, then follow the strongest threads.</h2>
+          <p>
+            The public GitHub account is the main call to action for now. It
+            surfaces recent agent tooling, web demos, AI workflow projects, and
+            the longer technical history behind the portfolio.
+          </p>
+        </div>
+        <div class="github-actions">
+          <a class="button button-primary" href="https://github.com/adroitous">github.com/adroitous</a>
+          <a class="button button-secondary" href="https://github.com/adroitous?tab=repositories">Repositories</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Vincent Lin / adroitous</p>
+    <p>Game systems, agent tooling, and interactive prototypes.</p>
+  </footer>
+</body>
+</html>
