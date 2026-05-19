@@ -3,495 +3,247 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-    name="description"
-    content="Vincent Lin builds playable game systems, AI education products, and agent telemetry harnesses. A curated GitHub-first portfolio for investors, publishers, and collaborators."
-  />
-  <title>Vincent Lin | Games, AI Products, Agent Systems</title>
+  <meta name="description" content="Vincent Lin builds cinematic game prototypes, accessible AI learning products, and operating systems for AI-assisted production." />
+  <title>Vincent Lin | Playable Worlds, AI Learning, Production Systems</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Vincent Lin portfolio home">
+    <a class="brand" href="#top" aria-label="Vincent Lin home">
       <span class="brand-mark">VL</span>
       <span>Vincent Lin</span>
     </a>
 
-    <nav class="nav" aria-label="Portfolio navigation">
-      <a href="#projects">Projects</a>
-      <a href="#harness">Harness</a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#games">Games</a>
+      <a href="#learning">Learning</a>
       <a href="#systems">Systems</a>
-      <a href="#github">GitHub</a>
-      <a class="nav-cta" href="https://github.com/adroitous">View GitHub</a>
+      <a href="#archive">Archive</a>
+      <a class="button button-nav" href="https://jianghu-ascendant.pages.dev">Play Jianghu</a>
     </nav>
   </header>
 
   <main id="top">
+    <!-- 1. Cinematic Hero -->
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-media" aria-hidden="true">
-        <img src="assets/portfolio/sanctuary-title.png" alt="" />
+        <img src="assets/portfolio/jianghu/jianghu-road-backdrop.webp" alt="Jianghu Road Backdrop" />
       </div>
       <div class="hero-shade"></div>
       <div class="hero-content">
-        <p class="eyebrow">Playable games / AI platforms / agent infrastructure</p>
-        <h1 id="hero-title">Vincent Lin / adroitous</h1>
+        <p class="eyebrow">Playable worlds / AI learning / production systems</p>
+        <h1 id="hero-title">Playable worlds. AI learning products. Operating systems for ambitious builds.</h1>
         <p class="hero-copy">
-          A GitHub-first portfolio of fundable game concepts, full-stack AI
-          products, and developer harnesses for agent-heavy production. The
-          through line is practical systems work: playable surfaces, real
-          pipelines, and tools that make iteration measurable.
+          Vincent Lin builds cinematic game prototypes, accessible AI education tools, and the behind-the-scenes systems that make complex creative work repeatable.
         </p>
         <div class="hero-actions" aria-label="Primary links">
+          <a class="button button-primary" href="https://jianghu-ascendant.pages.dev">Play Jianghu Ascendant</a>
+          <a class="button button-secondary" href="#games">View Work</a>
+          <a class="button button-text" href="https://github.com/adroitous">GitHub</a>
+        </div>
+      </div>
+      <div class="hero-hint" aria-hidden="true">
+        <span>↓</span>
+      </div>
+    </section>
+
+    <!-- 2. Jianghu Ascendant -->
+    <section id="games" class="section jianghu-section" aria-labelledby="jianghu-title">
+      <div class="content-wrapper">
+        <div class="jianghu-content">
+          <p class="eyebrow">Live cinematic browser game</p>
+          <h2 id="jianghu-title">Jianghu Ascendant</h2>
+          <p class="subheading">A martial-arts deckbuilder you can play now.</p>
+          <p class="body-text">
+            Choose a route through a mythic wuxia world, build a martial style, and survive duels against rivals, assassins, captains, and spirits. Jianghu Ascendant is the clearest live proof of the portfolio: a playable world with atmosphere, progression, combat, and a public build.
+          </p>
+          <ul class="proof-points">
+            <li>Playable live build</li>
+            <li>Route-based roguelike structure</li>
+            <li>Martial-arts deckbuilding combat</li>
+            <li>Cinematic enemy and level art</li>
+          </ul>
+          <div class="project-actions">
+            <a class="button button-primary" href="https://jianghu-ascendant.pages.dev">Play the live build</a>
+            <a class="button button-secondary" href="https://github.com/adroitous/jianghu-ascendant">View source</a>
+          </div>
+          <p class="quiet-meta">Browser game / deckbuilder / wuxia roguelike</p>
+        </div>
+        
+        <div class="jianghu-visuals" aria-hidden="true">
+          <div class="main-visual">
+            <img class="base-image" src="assets/portfolio/jianghu/jianghu-route-atlas.webp" alt="Jianghu route map" />
+            <img class="atmospheric-layer" src="assets/portfolio/jianghu/stone-courtyard.webp" alt="Stone courtyard atmosphere" />
+            <img class="motif" src="assets/portfolio/jianghu/qi.png" alt="Qi icon" />
+          </div>
+          <div class="enemy-fan">
+            <img src="assets/portfolio/jianghu/white-serpent-witch.webp" alt="White Serpent Witch" />
+            <img src="assets/portfolio/jianghu/black-eagle-captain.webp" alt="Black Eagle Captain" />
+            <img src="assets/portfolio/jianghu/snow-daoist.webp" alt="Snow Daoist" />
+            <img src="assets/portfolio/jianghu/crimson-lute-assassin.webp" alt="Crimson Lute Assassin" />
+          </div>
+          <div class="level-strip">
+            <img src="assets/portfolio/jianghu/river-gate.webp" alt="River Gate" />
+            <img src="assets/portfolio/jianghu/old-shrine.webp" alt="Old Shrine" />
+            <img src="assets/portfolio/jianghu/iron-pagoda.webp" alt="Iron Pagoda" />
+            <img src="assets/portfolio/jianghu/rain-teahouse.webp" alt="Rain Teahouse" />
+            <img src="assets/portfolio/jianghu/mirror-terrace.webp" alt="Mirror Terrace" />
+            <img src="assets/portfolio/jianghu/bell-approach.webp" alt="Bell Approach" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Project Sanctuary / cardlyB -->
+    <section class="section sanctuary-section" aria-labelledby="sanctuary-title">
+      <div class="sanctuary-media" aria-hidden="true">
+        <img class="bg-layer" src="assets/portfolio/sanctuary-combat.png" alt="Sanctuary combat backdrop" />
+        <div class="sanctuary-shade"></div>
+      </div>
+      <div class="content-wrapper">
+        <div class="sanctuary-visuals" aria-hidden="true">
+          <img class="char-layer" src="assets/portfolio/sanctuary-character.png" alt="Sanctuary character" />
+          <img class="card-layer" src="assets/portfolio/sanctuary-card.png" alt="Sanctuary card" />
+        </div>
+        <div class="sanctuary-content">
+          <img class="title-mark" src="assets/portfolio/sanctuary-title.png" alt="Project Sanctuary Logo" />
+          <p class="eyebrow">Narrative card battler</p>
+          <h2 id="sanctuary-title">Project Sanctuary / cardlyB</h2>
+          <p class="subheading">A character-driven card battler about survival, style, and hard choices.</p>
+          <p class="body-text">
+            Project Sanctuary pairs roguelike card combat with an anime-styled party world. It shows a second path through the same portfolio promise: visual direction, systems design, playable mechanics, and production planning moving together.
+          </p>
+          <ul class="proof-points">
+            <li>Party roguelike card combat</li>
+            <li>Character-first visual identity</li>
+            <li>Playable prototype direction</li>
+            <li>Design, art, audio, and QA planning</li>
+          </ul>
+          <div class="project-actions">
+            <a class="button button-primary" href="https://github.com/adroitous/cardlyB">View project</a>
+          </div>
+          <p class="quiet-meta">Godot 4 .NET / C#</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. AcePrepLabs -->
+    <section id="learning" class="section aceprep-section" aria-labelledby="aceprep-title">
+      <div class="content-wrapper">
+        <div class="aceprep-visuals" aria-hidden="true">
+          <div class="human-anchor">
+            <img src="assets/portfolio/aceprep/high-school-girl.jpg" alt="Student learning" />
+            <img class="mascot-accent" src="assets/portfolio/aceprep/owl-mascot.png" alt="AcePrep Owl Mascot" />
+          </div>
+          <div class="proof-screenshots">
+            <img class="shot-back" src="assets/portfolio/aceprep/before-search-click.png" alt="Search workflow" />
+            <img class="shot-front" src="assets/portfolio/aceprep/search-results.png" alt="Workflow results" />
+          </div>
+        </div>
+        
+        <div class="aceprep-content">
+          <p class="eyebrow">AI learning product</p>
+          <h2 id="aceprep-title">AcePrepLabs</h2>
+          <p class="subheading">AI practice that feels clear, supportive, and student-centered.</p>
+          <p class="body-text">
+            AcePrepLabs turns practice, feedback, and question workflows into a more approachable learning experience. The product direction is not "AI for its own sake"; it is AI that helps students know what to practice next and gives educators a clearer path to support them.
+          </p>
+          <ul class="proof-points">
+            <li>Student-friendly practice flow</li>
+            <li>AI-supported tutoring and feedback</li>
+            <li>Question-bank workflow proof</li>
+            <li>Built for families, educators, and training buyers</li>
+          </ul>
+          <div class="project-actions">
+            <a class="button button-primary" href="https://acepreplabs.com">Visit AcePrepLabs</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Harness Ecosystem -->
+    <section id="systems" class="section harness-section" aria-labelledby="harness-title">
+      <div class="harness-container">
+        <div class="harness-intro">
+          <p class="eyebrow">Behind the scenes</p>
+          <h2 id="harness-title">A production operating system for AI-assisted building.</h2>
+          <p class="body-text">
+            The harness work turns ambitious projects into repeatable production loops: agents can explore, build, test, critique, and preserve context while the project keeps moving. It is the invisible layer behind faster game production, stronger prototypes, and clearer handoffs.
+          </p>
+        </div>
+        
+        <div class="harness-pillars">
+          <div class="pillar">
+            <h3>Coordinate</h3>
+            <p>Break large work into clear roles, files, and responsibilities.</p>
+          </div>
+          <div class="pillar">
+            <h3>Verify</h3>
+            <p>Use tests, browser checks, playtest loops, and review passes before claiming work is done.</p>
+          </div>
+          <div class="pillar">
+            <h3>Remember</h3>
+            <p>Preserve decisions, evidence, and handoff context so complex projects do not reset every session.</p>
+          </div>
+        </div>
+        
+        <div class="harness-actions">
+          <a class="button button-primary" href="https://github.com/adroitous/game_studio_harness_codex">Explore the systems</a>
+        </div>
+        <p class="quiet-meta">Multi-role agent workflow experiments</p>
+      </div>
+    </section>
+
+    <!-- 6. Archive Proof Strip -->
+    <section id="archive" class="section archive-section" aria-labelledby="archive-title">
+      <div class="archive-container">
+        <h2 id="archive-title" class="visually-hidden">Archive Proof Strip</h2>
+        <div class="archive-grid">
+          <a class="archive-item" href="https://github.com/adroitous/physics-equation-playground">
+            <strong>Physics Equation Playground</strong>
+            <span>Interactive physics prototyping.</span>
+          </a>
+          <a class="archive-item" href="https://github.com/adroitous/localtelemetry">
+            <strong>LocalTelemetry</strong>
+            <span>Observability for AI coding sessions.</span>
+          </a>
+          <a class="archive-item" href="https://github.com/adroitous/claude-powershell-hooks">
+            <strong>Claude PowerShell Hooks</strong>
+            <span>Local workflow notifications.</span>
+          </a>
+          <a class="archive-item" href="https://github.com/adroitous/ResumeJsonGeneratorOutline">
+            <strong>Resume JSON Generator</strong>
+            <span>Structured AI resume workflows.</span>
+          </a>
+          <a class="archive-item" href="https://github.com/adroitous/YoutubeComments">
+            <strong>YouTube Comments Classifier</strong>
+            <span>NLP experiments and ranking.</span>
+          </a>
+          <a class="archive-item" href="https://github.com/adroitous/kmeanexperiments">
+            <strong>K-Means Experiments</strong>
+            <span>Clustering and benchmark analysis.</span>
+          </a>
+          <a class="archive-item" href="https://github.com/adroitous/bufferoverflow">
+            <strong>Buffer Overflow Exercises</strong>
+            <span>Systems fundamentals.</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Final CTA -->
+    <section class="section final-cta-section" aria-labelledby="final-cta-title">
+      <div class="final-cta-container">
+        <h2 id="final-cta-title">Start with the playable work. Then inspect the proof.</h2>
+        <p class="body-text">
+          The fastest way to understand the portfolio is to play Jianghu Ascendant, then follow the public project trail behind the games, learning products, and production systems.
+        </p>
+        <div class="final-cta-actions">
           <a class="button button-primary" href="https://jianghu-ascendant.pages.dev">Play Jianghu</a>
-          <a class="button button-secondary" href="https://github.com/adroitous">View GitHub</a>
-          <a class="button button-secondary" href="#projects">See Projects</a>
-        </div>
-        <dl class="hero-stats" aria-label="Portfolio highlights">
-          <div>
-            <dt>2 game worlds</dt>
-            <dd>Godot card battler + browser wuxia roguelike</dd>
-          </div>
-          <div>
-            <dt>AI products</dt>
-            <dd>SAT prep, tutors, telemetry, and workflow tools</dd>
-          </div>
-          <div>
-            <dt>11 departments</dt>
-            <dd>autonomous game studio harness architecture</dd>
-          </div>
-        </dl>
-      </div>
-    </section>
-
-    <section class="section intro" aria-labelledby="intro-title">
-      <div class="section-heading">
-        <p class="eyebrow">Why this portfolio exists</p>
-        <h2 id="intro-title">Proof of range across games, AI, and production systems.</h2>
-      </div>
-      <div class="intro-grid">
-        <article>
-          <h3>Game concepts with systems depth</h3>
-          <p>
-            Project Sanctuary/cardlyB and Jianghu Ascendant show two production
-            paths: a Godot 4 .NET roguelike card battler and a browser-based
-            wuxia deckbuilder with a live Three.js battlefield.
-          </p>
-        </article>
-        <article>
-          <h3>Agent-native developer workflows</h3>
-          <p>
-            LocalTelemetry, Game Studio Harness, and Claude PowerShell Hooks
-            focus on making coding agents observable, coordinated, and useful
-            during long-running local development.
-          </p>
-        </article>
-        <article>
-          <h3>Full-stack AI education products</h3>
-          <p>
-            AcePrepLabs expands the portfolio into applied AI learning:
-            tutoring, practice tests, flashcards, analytics, mobile training,
-            and question-bank tooling.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section id="projects" class="section projects" aria-labelledby="projects-title">
-      <div class="section-heading">
-        <p class="eyebrow">Curated highlights</p>
-        <h2 id="projects-title">Projects worth opening first.</h2>
-      </div>
-
-      <div class="featured-project">
-        <div class="project-visual jianghu-stack" aria-hidden="true">
-          <div class="battlefield-scene">
-            <div class="battlefield-grid"></div>
-            <div class="combatant combatant-player">Qi</div>
-            <div class="combatant combatant-rival">Jianghu</div>
-            <div class="combat-line combat-line-one"></div>
-            <div class="combat-line combat-line-two"></div>
-          </div>
-          <div class="school-strip">
-            <span>Sword</span>
-            <span>Fist</span>
-            <span>Shadow</span>
-            <span>Dao</span>
-          </div>
-          <div class="status-panel">
-            <strong>v0.1.0</strong>
-            <span>Active build / C/E</span>
-          </div>
-        </div>
-        <div class="project-copy">
-          <p class="project-kicker">Live browser game</p>
-          <h3>Jianghu Ascendant</h3>
-          <p>
-            Browser-based wuxia deckbuilding roguelike, playable now at
-            jianghu-ascendant.pages.dev. The build combines a Three.js 3D
-            battlefield with Qi-based martial combat, four martial schools,
-            relics, potions, cultivation progression, and bilingual Chinese /
-            English presentation.
-          </p>
-          <ul class="tag-list" aria-label="Jianghu Ascendant technologies">
-            <li>Vite</li>
-            <li>Three.js</li>
-            <li>TypeScript</li>
-            <li>Deckbuilding roguelike</li>
-            <li>v0.1.0 active</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://jianghu-ascendant.pages.dev">Play build</a>
-            <a href="https://github.com/adroitous/jianghu-ascendant">Source</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="featured-project">
-        <div class="project-visual sanctuary-stack">
-          <img class="visual-main" src="assets/portfolio/sanctuary-combat.png" alt="Project Sanctuary combat environment art" />
-          <img class="visual-character" src="assets/portfolio/sanctuary-character.png" alt="Project Sanctuary character art" />
-          <img class="visual-card" src="assets/portfolio/sanctuary-card.png" alt="Project Sanctuary card art" />
-        </div>
-        <div class="project-copy">
-          <p class="project-kicker">Flagship game project</p>
-          <h3>Project Sanctuary / cardlyB</h3>
-          <p>
-            A narrative-first, anime-styled, party roguelike card battler built
-            in Godot 4 .NET with C#. The local workspace includes a playable
-            implementation, full design bible, generated art assets, BGM/SFX
-            pipelines, mobile planning docs, and QA harness work.
-          </p>
-          <ul class="tag-list" aria-label="Project Sanctuary technologies">
-            <li>Godot 4 .NET</li>
-            <li>C#</li>
-            <li>Game design specs</li>
-            <li>Asset pipelines</li>
-            <li>QA harness</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/adroitous/cardlyB">Source</a>
-            <a href="#systems">Architecture notes</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="featured-project ace-feature">
-        <div class="project-copy">
-          <p class="project-kicker">Full-stack AI education platform</p>
-          <h3>AcePrepLabs</h3>
-          <p>
-            Applied AI SAT prep and training ecosystem spanning a web platform,
-            mobile corporate training app, and College Board question-bank
-            tooling. The work demonstrates product breadth: tutoring flows,
-            assessment engines, analytics, mobile delivery, and automation.
-          </p>
-          <div class="platform-list" aria-label="AcePrepLabs project surfaces">
-            <article>
-              <strong>AcePrepLabs.com</strong>
-              <span>Next.js 15 / FastAPI / Supabase / LangChain with an AI tutor, practice tests, flashcards, analytics, and LLM question generation.</span>
-            </article>
-            <article>
-              <strong>Eddie Corporate Training</strong>
-              <span>React Native / Expo mobile app for corporate learning and training workflows.</span>
-            </article>
-            <article>
-              <strong>AcePrepLabSATOfficialScrapper</strong>
-              <span>Selenium College Board question-bank tool for SAT content workflows.</span>
-            </article>
-          </div>
-          <ul class="tag-list" aria-label="AcePrepLabs technologies">
-            <li>Next.js 15</li>
-            <li>FastAPI</li>
-            <li>Supabase</li>
-            <li>LangChain</li>
-            <li>React Native</li>
-            <li>Selenium</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://acepreplabs.com">AcePrepLabs.com</a>
-            <a href="https://github.com/adroitous/AcePrepLabSATOfficialScrapper">Scraper source</a>
-          </div>
-        </div>
-        <div class="project-visual ace-stack" aria-hidden="true">
-          <div class="app-window">
-            <div class="window-bar">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
-            <div class="score-band">
-              <strong>AI Tutor</strong>
-              <span>1520 target plan</span>
-            </div>
-            <div class="app-grid">
-              <div>
-                <span>Practice</span>
-                <strong>42</strong>
-              </div>
-              <div>
-                <span>Flashcards</span>
-                <strong>118</strong>
-              </div>
-              <div>
-                <span>Analytics</span>
-                <strong>+14%</strong>
-              </div>
-              <div>
-                <span>LLM Items</span>
-                <strong>Draft</strong>
-              </div>
-            </div>
-          </div>
-          <div class="mobile-slab">
-            <span>Eddie</span>
-            <strong>Training</strong>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card" data-kind="web">
-          <div class="card-top">
-            <span class="repo-type">Browser demo</span>
-            <span class="repo-lang">JavaScript</span>
-          </div>
-          <h3>Physics Equation Playground</h3>
-          <p>
-            Interactive browser playground for physics and equation-driven
-            canvas animations, built as a fast visual prototyping surface.
-          </p>
-          <ul class="tag-list">
-            <li>Canvas</li>
-            <li>Vite</li>
-            <li>Playwright</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/adroitous/physics-equation-playground">Source</a>
-          </div>
-        </article>
-
-        <article class="project-card" data-kind="agents">
-          <div class="card-top">
-            <span class="repo-type">Agent tooling</span>
-            <span class="repo-lang">PowerShell</span>
-          </div>
-          <h3>Claude PowerShell Hooks</h3>
-          <p>
-            Windows 11 notification hooks for Claude Code, focused on making
-            long-running local coding sessions easier to monitor.
-          </p>
-          <ul class="tag-list">
-            <li>Windows</li>
-            <li>PowerShell</li>
-            <li>Developer UX</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/adroitous/claude-powershell-hooks">Source</a>
-          </div>
-        </article>
-
-        <article class="project-card" data-kind="ai">
-          <div class="card-top">
-            <span class="repo-type">AI app</span>
-            <span class="repo-lang">HTML/Python</span>
-          </div>
-          <h3>Resume JSON Generator</h3>
-          <p>
-            Job-description-driven JSON Resume generator with Python models,
-            validation, prompts, and a lightweight frontend.
-          </p>
-          <ul class="tag-list">
-            <li>LLM workflow</li>
-            <li>Schema output</li>
-            <li>Validation</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/adroitous/ResumeJsonGeneratorOutline">Source</a>
-          </div>
-        </article>
-
-        <article class="project-card" data-kind="ai">
-          <div class="card-top">
-            <span class="repo-type">NLP project</span>
-            <span class="repo-lang">Python</span>
-          </div>
-          <h3>YouTube Comments Classifier</h3>
-          <p>
-            NLP project exploring comment ranking and generation using sentiment,
-            co-occurrence features, Markov chains, and recurrent models.
-          </p>
-          <ul class="tag-list">
-            <li>NLP</li>
-            <li>Classification</li>
-            <li>Generation</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/adroitous/YoutubeComments">Source</a>
-          </div>
-        </article>
-
-        <article class="project-card" data-kind="ai">
-          <div class="card-top">
-            <span class="repo-type">ML experiments</span>
-            <span class="repo-lang">Python</span>
-          </div>
-          <h3>K-Means Experiments</h3>
-          <p>
-            Clustering experiments across many benchmark datasets, with result
-            outputs and analysis scripts for comparing behavior across domains.
-          </p>
-          <ul class="tag-list">
-            <li>Clustering</li>
-            <li>Benchmarks</li>
-            <li>Analysis</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/adroitous/kmeanexperiments">Source</a>
-          </div>
-        </article>
-
-        <article class="project-card" data-kind="security">
-          <div class="card-top">
-            <span class="repo-type">Systems/security</span>
-            <span class="repo-lang">C</span>
-          </div>
-          <h3>Buffer Overflow Exercises</h3>
-          <p>
-            Low-level C exercises around memory behavior and exploit mechanics,
-            useful as evidence of systems-level fundamentals.
-          </p>
-          <ul class="tag-list">
-            <li>C</li>
-            <li>Makefile</li>
-            <li>Systems</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/adroitous/bufferoverflow">Source</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="harness" class="section systems harness-section" aria-labelledby="harness-title">
-      <div class="section-heading">
-        <p class="eyebrow">Harness ecosystem</p>
-        <h2 id="harness-title">Infrastructure for agent-heavy work.</h2>
-      </div>
-      <div class="systems-layout">
-        <article class="system-panel">
-          <p class="project-kicker">AI agent telemetry harness</p>
-          <h3>LocalTelemetry</h3>
-          <p>
-            Local workbench that ingests Claude Code and Codex sessions into
-            SQLite, then exposes the data through Python/FastAPI, a CLI, and a
-            REST API. The goal is source-of-truth telemetry for agent behavior,
-            session replay, and development observability.
-          </p>
-          <ul class="tag-list">
-            <li>Python</li>
-            <li>FastAPI</li>
-            <li>SQLite</li>
-            <li>CLI</li>
-            <li>REST API</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/adroitous/localtelemetry">Source</a>
-          </div>
-        </article>
-        <article class="system-panel accent-panel">
-          <p class="project-kicker">Pre-production AI game studio</p>
-          <h3>Game Studio Harness</h3>
-          <p>
-            AI game development framework with 11 autonomous agent departments,
-            Dolt-backed shared memory, and Bash/Python/Claude Code orchestration.
-            It turns game pre-production into coordinated departments rather
-            than one-off prompts.
-          </p>
-          <ul class="tag-list">
-            <li>11 departments</li>
-            <li>Dolt memory</li>
-            <li>Bash</li>
-            <li>Python</li>
-            <li>Claude Code</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/adroitous/game_studio_harness_codex">Source</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="systems" class="section systems" aria-labelledby="systems-title">
-      <div class="section-heading">
-        <p class="eyebrow">Build pattern</p>
-        <h2 id="systems-title">The work is connected by systems thinking.</h2>
-      </div>
-      <div class="systems-layout">
-        <div class="system-panel">
-          <h3>Game production loop</h3>
-          <p>
-            Specs define the design contract, data files drive runtime behavior,
-            engines present the experience, and QA scripts close the loop across
-            both Godot and browser-native builds.
-          </p>
-          <ol class="timeline">
-            <li><span>01</span> Vision, pillars, and market positioning</li>
-            <li><span>02</span> Core simulation, combat rules, and game data</li>
-            <li><span>03</span> Art, SFX, BGM, 3D scenes, and UI pipelines</li>
-            <li><span>04</span> Playtest, telemetry, QA harness, and iteration notes</li>
-          </ol>
-        </div>
-        <div class="system-panel accent-panel">
-          <h3>Why it matters to funders</h3>
-          <p>
-            This portfolio shows more than isolated demos. It shows a builder
-            who can move from research to product to game implementation, while
-            keeping scope, production constraints, and technical proof visible.
-          </p>
-          <div class="proof-grid">
-            <div>
-              <strong>Playable proof</strong>
-              <span>live web game plus Godot card battler work</span>
-            </div>
-            <div>
-              <strong>Product range</strong>
-              <span>edtech, mobile, dashboards, and automation</span>
-            </div>
-            <div>
-              <strong>Technical range</strong>
-              <span>C#, TypeScript, Python, PowerShell, C</span>
-            </div>
-            <div>
-              <strong>Current focus</strong>
-              <span>agent orchestration, observability, and game systems</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="github" class="section github-section" aria-labelledby="github-title">
-      <div class="github-card">
-        <div>
-          <p class="eyebrow">GitHub first</p>
-          <h2 id="github-title">Open the repos, then follow the strongest threads.</h2>
-          <p>
-            The public GitHub account is the main call to action. It surfaces
-            playable game builds, agent tooling, AI workflow projects, edtech
-            prototypes, and the longer technical history behind the portfolio.
-          </p>
-        </div>
-        <div class="github-actions">
-          <a class="button button-primary" href="https://github.com/adroitous">github.com/adroitous</a>
-          <a class="button button-secondary" href="https://github.com/adroitous?tab=repositories">Repositories</a>
+          <a class="button button-secondary" href="https://github.com/adroitous">Explore GitHub</a>
         </div>
       </div>
     </section>
   </main>
-
-  <footer class="footer">
-    <p>Vincent Lin / adroitous</p>
-    <p>Game systems, AI products, and agent tooling.</p>
-  </footer>
 </body>
 </html>
