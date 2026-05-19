@@ -357,6 +357,7 @@ Keep but reframe:
 - GitHub links as proof and inspection paths, not the main pitch.
 - Older projects as a compact archive strip.
 - Technical details only where they serve credibility after the emotional product story is clear.
+- Private-repo links should not be exposed as primary CTAs for external visitors; route those to the public GitHub profile or an on-page section instead of letting nontechnical visitors hit 404s.
 
 ## Implementation Instructions For Gemini CLI
 
