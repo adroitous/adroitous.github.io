@@ -39,7 +39,7 @@ Use a single scrolling page with fewer, larger sections:
 3. **Project Sanctuary / cardlyB**
    - Purpose: second major visual game proof.
    - Weight: large cinematic section, but slightly smaller than Jianghu.
-   - CTA: source or project link.
+   - CTA: public-safe project trail link.
 
 4. **AcePrepLabs**
    - Purpose: accessible AI learning product proof.
@@ -49,7 +49,7 @@ Use a single scrolling page with fewer, larger sections:
 5. **Harness Ecosystem**
    - Purpose: explain the behind-the-scenes operating system for AI-assisted building.
    - Weight: conceptual section with restrained visuals, not a dashboard.
-   - CTA: GitHub/source link.
+   - CTA: public GitHub profile or on-page systems link.
 
 6. **Archive Proof Strip**
    - Purpose: compress older projects into credibility without creating clutter.
@@ -124,7 +124,7 @@ Copy:
   - `Martial-arts deckbuilding combat`
   - `Cinematic enemy and level art`
 - CTA: `Play the live build`
-- Secondary link: `View source`
+- Secondary link: `Explore the public trail`
 
 Implementation notes:
 
@@ -161,7 +161,7 @@ Copy:
   - `Character-first visual identity`
   - `Playable prototype direction`
   - `Design, art, audio, and QA planning`
-- CTA: `View project`
+- CTA: `Explore related work`
 
 Suppress:
 
@@ -181,7 +181,7 @@ Visual direction:
 - Recommended composition:
   - `high school girl.jpg` as the human anchor.
   - `owl-mascot.png` as a friendly brand accent.
-  - `search_results.png` and `before_search_click.png` as small proof screenshots, framed like product evidence.
+  - `search-results.png` and `before-search-click.png` as small proof screenshots, framed like product evidence.
 - Keep screenshots secondary. The emotional center should be learning support and trust.
 
 Copy:
@@ -286,54 +286,54 @@ Copy Jianghu assets:
 
 | Source | Destination | Use |
 | --- | --- | --- |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/arena/stone-courtyard.webp` | `assets/portfolio/jianghu/stone-courtyard.webp` | Hero or Jianghu atmosphere |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/map/jianghu-route-atlas.webp` | `assets/portfolio/jianghu/jianghu-route-atlas.webp` | Jianghu main visual |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/map/jianghu-road-backdrop.webp` | `assets/portfolio/jianghu/jianghu-road-backdrop.webp` | Hero/Jianghu background |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/map/jianghu-handscroll-route.webp` | `assets/portfolio/jianghu/jianghu-handscroll-route.webp` | Route detail strip |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/river-gate.webp` | `assets/portfolio/jianghu/river-gate.webp` | Level still |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/old-shrine.webp` | `assets/portfolio/jianghu/old-shrine.webp` | Level still |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/iron-pagoda.webp` | `assets/portfolio/jianghu/iron-pagoda.webp` | Level still |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/rain-teahouse.webp` | `assets/portfolio/jianghu/rain-teahouse.webp` | Level still |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/mirror-terrace.webp` | `assets/portfolio/jianghu/mirror-terrace.webp` | Level still |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/bell-approach.webp` | `assets/portfolio/jianghu/bell-approach.webp` | Level still |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/enemies-webp/white-serpent-witch.webp` | `assets/portfolio/jianghu/white-serpent-witch.webp` | Enemy portrait |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/enemies-webp/black-eagle-captain.webp` | `assets/portfolio/jianghu/black-eagle-captain.webp` | Enemy portrait |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/enemies-webp/snow-daoist.webp` | `assets/portfolio/jianghu/snow-daoist.webp` | Enemy portrait |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/enemies-webp/crimson-lute-assassin.webp` | `assets/portfolio/jianghu/crimson-lute-assassin.webp` | Enemy portrait |
-| `/home/vincent/GitRepo/jianghu-ascendant/public/images/ui/resources/qi.png` | `assets/portfolio/jianghu/qi.png` | Small motif/icon |
+| `$GIT_ROOT/jianghu-ascendant/public/images/arena/stone-courtyard.webp` | `assets/portfolio/jianghu/stone-courtyard.webp` | Hero or Jianghu atmosphere |
+| `$GIT_ROOT/jianghu-ascendant/public/images/map/jianghu-route-atlas.webp` | `assets/portfolio/jianghu/jianghu-route-atlas.webp` | Jianghu main visual |
+| `$GIT_ROOT/jianghu-ascendant/public/images/map/jianghu-road-backdrop.webp` | `assets/portfolio/jianghu/jianghu-road-backdrop.webp` | Hero/Jianghu background |
+| `$GIT_ROOT/jianghu-ascendant/public/images/map/jianghu-handscroll-route.webp` | `assets/portfolio/jianghu/jianghu-handscroll-route.webp` | Route detail strip |
+| `$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/river-gate.webp` | `assets/portfolio/jianghu/river-gate.webp` | Level still |
+| `$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/old-shrine.webp` | `assets/portfolio/jianghu/old-shrine.webp` | Level still |
+| `$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/iron-pagoda.webp` | `assets/portfolio/jianghu/iron-pagoda.webp` | Level still |
+| `$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/rain-teahouse.webp` | `assets/portfolio/jianghu/rain-teahouse.webp` | Level still |
+| `$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/mirror-terrace.webp` | `assets/portfolio/jianghu/mirror-terrace.webp` | Level still |
+| `$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/bell-approach.webp` | `assets/portfolio/jianghu/bell-approach.webp` | Level still |
+| `$GIT_ROOT/jianghu-ascendant/public/images/enemies-webp/white-serpent-witch.webp` | `assets/portfolio/jianghu/white-serpent-witch.webp` | Enemy portrait |
+| `$GIT_ROOT/jianghu-ascendant/public/images/enemies-webp/black-eagle-captain.webp` | `assets/portfolio/jianghu/black-eagle-captain.webp` | Enemy portrait |
+| `$GIT_ROOT/jianghu-ascendant/public/images/enemies-webp/snow-daoist.webp` | `assets/portfolio/jianghu/snow-daoist.webp` | Enemy portrait |
+| `$GIT_ROOT/jianghu-ascendant/public/images/enemies-webp/crimson-lute-assassin.webp` | `assets/portfolio/jianghu/crimson-lute-assassin.webp` | Enemy portrait |
+| `$GIT_ROOT/jianghu-ascendant/public/images/ui/resources/qi.png` | `assets/portfolio/jianghu/qi.png` | Small motif/icon |
 
 Copy AcePrep assets:
 
 | Source | Destination | Use |
 | --- | --- | --- |
-| `/home/vincent/GitRepo/acepreplabs/AcePrepLabsLandingPage/public/owl-mascot.png` | `assets/portfolio/aceprep/owl-mascot.png` | Friendly product accent |
-| `/home/vincent/GitRepo/acepreplabs/AcePrepLabsLandingPage/public/high school girl.jpg` | `assets/portfolio/aceprep/high-school-girl.jpg` | Human learning image |
-| `/home/vincent/GitRepo/acepreplabs/AcePrepLabSATOfficialScrapper/search_results.png` | `assets/portfolio/aceprep/search-results.png` | Workflow proof screenshot |
-| `/home/vincent/GitRepo/acepreplabs/AcePrepLabSATOfficialScrapper/before_search_click.png` | `assets/portfolio/aceprep/before-search-click.png` | Workflow proof screenshot |
+| `$GIT_ROOT/acepreplabs/AcePrepLabsLandingPage/public/owl-mascot.png` | `assets/portfolio/aceprep/owl-mascot.png` | Friendly product accent |
+| `$GIT_ROOT/acepreplabs/AcePrepLabsLandingPage/public/high school girl.jpg` | `assets/portfolio/aceprep/high-school-girl.jpg` | Human learning image |
+| `$GIT_ROOT/acepreplabs/AcePrepLabSATOfficialScrapper/search_results.png` | `assets/portfolio/aceprep/search-results.png` | Workflow proof screenshot |
+| `$GIT_ROOT/acepreplabs/AcePrepLabSATOfficialScrapper/before_search_click.png` | `assets/portfolio/aceprep/before-search-click.png` | Workflow proof screenshot |
 
-Gemini may use these commands to copy the assets:
+Gemini may use these commands to copy the assets. Set `GIT_ROOT` to the local workspace root first:
 
 ```bash
 mkdir -p assets/portfolio/jianghu assets/portfolio/aceprep
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/arena/stone-courtyard.webp assets/portfolio/jianghu/stone-courtyard.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/map/jianghu-route-atlas.webp assets/portfolio/jianghu/jianghu-route-atlas.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/map/jianghu-road-backdrop.webp assets/portfolio/jianghu/jianghu-road-backdrop.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/map/jianghu-handscroll-route.webp assets/portfolio/jianghu/jianghu-handscroll-route.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/river-gate.webp assets/portfolio/jianghu/river-gate.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/old-shrine.webp assets/portfolio/jianghu/old-shrine.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/iron-pagoda.webp assets/portfolio/jianghu/iron-pagoda.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/rain-teahouse.webp assets/portfolio/jianghu/rain-teahouse.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/mirror-terrace.webp assets/portfolio/jianghu/mirror-terrace.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/levels-webp/bell-approach.webp assets/portfolio/jianghu/bell-approach.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/enemies-webp/white-serpent-witch.webp assets/portfolio/jianghu/white-serpent-witch.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/enemies-webp/black-eagle-captain.webp assets/portfolio/jianghu/black-eagle-captain.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/enemies-webp/snow-daoist.webp assets/portfolio/jianghu/snow-daoist.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/enemies-webp/crimson-lute-assassin.webp assets/portfolio/jianghu/crimson-lute-assassin.webp
-cp /home/vincent/GitRepo/jianghu-ascendant/public/images/ui/resources/qi.png assets/portfolio/jianghu/qi.png
-cp /home/vincent/GitRepo/acepreplabs/AcePrepLabsLandingPage/public/owl-mascot.png assets/portfolio/aceprep/owl-mascot.png
-cp "/home/vincent/GitRepo/acepreplabs/AcePrepLabsLandingPage/public/high school girl.jpg" assets/portfolio/aceprep/high-school-girl.jpg
-cp /home/vincent/GitRepo/acepreplabs/AcePrepLabSATOfficialScrapper/search_results.png assets/portfolio/aceprep/search-results.png
-cp /home/vincent/GitRepo/acepreplabs/AcePrepLabSATOfficialScrapper/before_search_click.png assets/portfolio/aceprep/before-search-click.png
+cp "$GIT_ROOT/jianghu-ascendant/public/images/arena/stone-courtyard.webp" assets/portfolio/jianghu/stone-courtyard.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/map/jianghu-route-atlas.webp" assets/portfolio/jianghu/jianghu-route-atlas.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/map/jianghu-road-backdrop.webp" assets/portfolio/jianghu/jianghu-road-backdrop.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/map/jianghu-handscroll-route.webp" assets/portfolio/jianghu/jianghu-handscroll-route.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/river-gate.webp" assets/portfolio/jianghu/river-gate.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/old-shrine.webp" assets/portfolio/jianghu/old-shrine.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/iron-pagoda.webp" assets/portfolio/jianghu/iron-pagoda.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/rain-teahouse.webp" assets/portfolio/jianghu/rain-teahouse.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/mirror-terrace.webp" assets/portfolio/jianghu/mirror-terrace.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/levels-webp/bell-approach.webp" assets/portfolio/jianghu/bell-approach.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/enemies-webp/white-serpent-witch.webp" assets/portfolio/jianghu/white-serpent-witch.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/enemies-webp/black-eagle-captain.webp" assets/portfolio/jianghu/black-eagle-captain.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/enemies-webp/snow-daoist.webp" assets/portfolio/jianghu/snow-daoist.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/enemies-webp/crimson-lute-assassin.webp" assets/portfolio/jianghu/crimson-lute-assassin.webp
+cp "$GIT_ROOT/jianghu-ascendant/public/images/ui/resources/qi.png" assets/portfolio/jianghu/qi.png
+cp "$GIT_ROOT/acepreplabs/AcePrepLabsLandingPage/public/owl-mascot.png" assets/portfolio/aceprep/owl-mascot.png
+cp "$GIT_ROOT/acepreplabs/AcePrepLabsLandingPage/public/high school girl.jpg" assets/portfolio/aceprep/high-school-girl.jpg
+cp "$GIT_ROOT/acepreplabs/AcePrepLabSATOfficialScrapper/search_results.png" assets/portfolio/aceprep/search-results.png
+cp "$GIT_ROOT/acepreplabs/AcePrepLabSATOfficialScrapper/before_search_click.png" assets/portfolio/aceprep/before-search-click.png
 ```
 
 ## What To Remove Or Suppress From The Current Page
@@ -436,4 +436,3 @@ Technical acceptance:
 - No horizontal scrolling occurs on mobile widths.
 - The page passes a basic manual link check for the main CTAs.
 - The final implementation does not introduce build artifacts, package files, or unrelated repo changes.
-
